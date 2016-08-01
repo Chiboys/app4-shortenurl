@@ -1,0 +1,22 @@
+{
+  "name": "app4-shortenurl",
+  "version": "1.0.0",
+  "description": "give the short the url when add url arg behind special url",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WangLiuLiuWang/app4-shortenurl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WangLiuLiuWang/app4-shortenurl/issues"
+  },
+  "homepage": "https://github.com/WangLiuLiuWang/app4-shortenurl#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
