@@ -1,0 +1,7 @@
+var express = require("express");
+var app = express();
+var route = require("./app/routes/route.js");
+route(app);
+app.listen(express.env.PORT || 3000,function(){
+	console.loe("listening the port");
+});
