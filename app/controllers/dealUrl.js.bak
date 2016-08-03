@@ -13,7 +13,7 @@ module.exports = function(db){
 							shortUrl:result.short_url
 					});
 		}else{
-			var original_url = req.headers.host + req.url;
+			var original_url = req.headers.host + req.originalUrl;
 			collect.insert({url:url,original_url:original_url},function(err){
 				if(err){
 					throw err;

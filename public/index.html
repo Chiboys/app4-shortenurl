@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <link href="/public/css/style.css" rel="stylesheet" type="text/css"/>
+  <title>shortern url</title>
+ </head>
+ <body>
+	<h1>减少url长度功能</h1>
+	<div><h3>功能介绍</h3>
+		<ul>
+			<li>
+				此功能会自动检测请求地址中是否有其他url(::=urlN)信息.
+			</li>
+			<li>
+				如果检测到url信息,将会返回一个简单的json格式的字符串.
+				<br>&nbsp;字符串包括原来的地址和简化后的地址.
+				<br>&nbsp;将简化后的地址输入地址栏,会跳转到urlN.
+			</li>
+			<li>
+				如果没有检测到url信息,将会继续访问本页面.
+			</li>
+		</ul>
+	</div>
+	<div>
+		<h3>输入范例</h3>
+		<ul>
+			localhost:3000/shorten/https://baidu.com
+		</ul>
+	</div>
+	<div>
+		<h3>输出</h3>
+		<ul>
+		{"originUrl":"localhost:3000/shorten/https://baidu.com","shortUrl":"localhost:3000/shorten/1003"}
+		</ul>
+	</div>
+
+  
+ </body>
+</html>
