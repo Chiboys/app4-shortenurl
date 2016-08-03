@@ -2,7 +2,7 @@
   "name": "app4-shortenurl",
   "version": "1.0.0",
   "description": "give the short the url when add url arg behind special url",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
