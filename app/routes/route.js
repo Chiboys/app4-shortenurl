@@ -1,6 +1,6 @@
 "use strict";
 
-module.exports = function(rount,db){
+module.exports = function(app,db){
 	var dealUrl = require(process.cwd()+"/app/controllers/dealUrl.js");
 	var deal = new dealUrl(db);
 	app.get("/",function(req,res){
