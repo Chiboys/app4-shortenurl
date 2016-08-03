@@ -6,7 +6,7 @@
   <meta name="Author" content="">
   <meta name="Keywords" content="">
   <meta name="Description" content="">
-  <link href="/shorten/public/css/style.css" rel="stylesheet" type="text/css"/>
+  <link href="/public/css/style.css" rel="stylesheet" type="text/css"/>
   <title>shortern url</title>
  </head>
  <body>
@@ -29,13 +29,13 @@
 	<div>
 		<h3>输入范例</h3>
 		<ul>
-			localhost:3000/shorten/https://baidu.com
+			http://app4-shortenurl.herokuapp.com/https://baidu.com
 		</ul>
 	</div>
 	<div>
 		<h3>输出</h3>
 		<ul>
-		{"originUrl":"localhost:3000/shorten/https://baidu.com","shortUrl":"localhost:3000/shorten/1003"}
+		{"originUrl":"http://app4-shortenurl.herokuapp.com/https://baidu.com","shortUrl":"http://app4-shortenurl.herokuapp.com/1003"}
 		</ul>
 	</div>
 
