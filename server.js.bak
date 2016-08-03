@@ -5,7 +5,7 @@ var app = express();
 var shorten = express.Router();
 app.use("/public",express.static(process.cwd()+"/public"));
 var client = require("mongodb").MongoClient;
-client.connect(/*"mongodb://localhost:27017/shorten" */ "mongodb://218.75.242.247:27017/smallworld",function(err,db){
+client.connect(/*"mongodb://localhost:27017/shorten" */ mongo_shorten,function(err,db){
 	if(err) {throw err;}
 	var route = require("./app/routes/route.js");
 	route(app,db);
