@@ -29,13 +29,13 @@
 	<div>
 		<h3>输入范例</h3>
 		<ul>
-			http://app4-shortenurl.herokuapp.com/https://baidu.com
+			https://app4-shortenurl.herokuapp.com/https://baidu.com
 		</ul>
 	</div>
 	<div>
 		<h3>输出</h3>
 		<ul>
-		{"originUrl":"http://app4-shortenurl.herokuapp.com/https://baidu.com","shortUrl":"http://app4-shortenurl.herokuapp.com/1003"}
+		{"originUrl":"https://app4-shortenurl.herokuapp.com/https://baidu.com","shortUrl":"https://app4-shortenurl.herokuapp.com/1003"}
 		</ul>
 	</div>
 
